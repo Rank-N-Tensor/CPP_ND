@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "optional": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "ostream": "cpp"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "ros.distro": "noetic",
+    "cmake.configureOnOpen": true
+}

@@ -1,0 +1,36 @@
+to change c++ version , go to c_cpp_properties.json ann add < "cppStandard": "c++20", > to the configurations , alternatively go to c/C++ configurations
+
+********************
+FOR " UNABLE TO FIND HEADER FILE"
+edit your includepath settings
+********************
+
+**************
+gh configure error: sudo apt remove gitsome 2. follow gh cli linux installaton guide 
+**************
+
+**************
+pushing cloned repo to your own github
+ git remote -v
+git remote rm origin
+git remote -v  #to check
+<create your own repo using ghcli or the webui>
+ git remote add origin <repo URL>
+ git branch -M main
+git push -u origin main
+**************
+
+**************
+pushing cloned repos as your own - ALT 
+
+(open terminal and clone repo ) > git clone $repo$
+open cloned repo
+(look for hidden files via) >ls-1a
+(remove .git and .github) > rm -r $repo$
+you can initialise empty repo via git init
+**************
+
+**************
+to use gdb to debug a source file, compile and link via : g++ -g <source_file.cpp> //remember -g is a debugging symbol
+refer to gdb cheatsheet for further info on gdb
+**************

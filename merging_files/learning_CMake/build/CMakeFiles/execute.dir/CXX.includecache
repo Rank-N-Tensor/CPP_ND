@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/adi/CPP_ND/merging_files/learning_CMake/src/add_sum_vec.cpp
+iostream
+-
+vector
+-
+vec_header.h
+/home/adi/CPP_ND/merging_files/learning_CMake/src/vec_header.h
+
+/home/adi/CPP_ND/merging_files/learning_CMake/src/vec_header.h
+vector
+-
+
